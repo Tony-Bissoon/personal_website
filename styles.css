@@ -1,0 +1,119 @@
+/* font-family: 'Oswald', sans-serif; */
+
+body {
+    background-image: url("background.jpeg");
+    font-family: 'Oswald', sans-serif;
+   
+    
+    
+}
+
+.intro {
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+
+mark {
+    color:black;
+    background-color:red;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.intro img {
+    width: 300px;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    
+    justify-content: space-around;
+   
+}
+
+.GitCon img {
+    width: 250px;
+}
+
+.GitCon {
+    text-align: center;
+
+}
+
+.Contact {
+    text-align: center;
+    justify-self: start;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+h2{
+    text-align: center;
+    
+}
+
+.GitProj img{
+    width: 400px;
+}
+
+.GitProj2 img{
+    width: 400px;
+    height: 350px;
+}
+
+mark1 {
+    color: silver;
+}
+
+
+.socialMed {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+@media(max-width: 1030px) {
+
+    body {
+        background-color: red;
+        flex-direction: column;
+    }
+    
+
+    .container {
+        width: 80% ;
+    }
+
+    .container2 {
+        width: 80% ;
+    }    
+
+    .Contact {
+        width: 80% ;
+    }
+
+     
+    
+   
+
+
+ 
+}
+
+@media(max-width : 540px) {
+    
+    .img {
+        width : 80%; 
+        height: initial;
+    }    
+}
