@@ -3,6 +3,7 @@
 body {
     background-image: url("background.jpeg");
     font-family: 'Oswald', sans-serif;
+    
    
     
     
@@ -11,6 +12,8 @@ body {
 .intro {
     font-size: 40px;
     text-align: center;
+    width: 100%;
+    margin:0;
 
     
 }
@@ -34,6 +37,9 @@ h2{
     display: flex;
     
     justify-content: space-around;
+    margin-left: 11px;
+   
+    
    
 }
 
@@ -54,6 +60,7 @@ h2{
 .container2 {
     display: flex;
     justify-content: space-around;
+    margin-left: 90px;
    
 }
 h2{
@@ -61,18 +68,16 @@ h2{
     
 }
 
-.GitProj img{
+#GitProj{
     width: 400px;
 }
 
-.GitProj2 img{
+#GitProj2{
     width: 400px;
     height: 350px;
 }
 
-mark1 {
-    color: silver;
-}
+
 
 
 .socialMed {
@@ -80,14 +85,78 @@ mark1 {
     font-size: 30px;
 }
 
+mark1{
+    color: darkgrey;
+}
+@media(max-width : 540px) {
 
+    body { 
+        width: 100vw;
+    }
+
+    
+    
+    .img {
+        width : 80%; 
+        height: initial;
+        display: block;
+        margin-left:auto ;
+        margin-right: auto;
+    }   
+
+    .mainContainer {
+        widows: 100vw;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 19px;
+        
+    }
+
+    
+
+    #github-img{
+        width: 100px;
+        
+    }
+    
+    .container{
+        flex-direction: column;
+        margin-left: 25%;
+       
+    }
+
+    #resume-img {
+        width: 100px;
+    }
+
+    #GitProj {
+        width: 290px;
+    }
+
+    #GitProj2 {
+        width: 290px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        margin-left: 0.3% ; 
+    }
+
+    .socialMed{
+        margin-left: 20%;
+    }
+}
 
 @media(max-width: 1030px) {
 
     body {
         background-color: red;
         flex-direction: column;
+        
     }
+
+    
     
 
     .container {
@@ -109,11 +178,6 @@ mark1 {
 
  
 }
-
-@media(max-width : 540px) {
-    
-    .img {
-        width : 80%; 
-        height: initial;
-    }    
-}
+ body { 
+        width: 100vw;
+    }
