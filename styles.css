@@ -1,8 +1,11 @@
-/* font-family: 'Oswald', sans-serif; */
+
 
 body {
     background-image: url("background.jpeg");
     font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+
     
    
     
@@ -10,7 +13,7 @@ body {
 }
 
 .intro {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     width: 100%;
     margin:0;
@@ -37,7 +40,7 @@ h2{
     display: flex;
     
     justify-content: space-around;
-    margin-left: 11px;
+    
    
     
    
@@ -53,6 +56,7 @@ h2{
 }
 
 .Contact {
+    
     text-align: center;
     justify-self: start;
 }
@@ -60,7 +64,7 @@ h2{
 .container2 {
     display: flex;
     justify-content: space-around;
-    margin-left: 90px;
+  
    
 }
 h2{
@@ -85,99 +89,86 @@ h2{
     font-size: 30px;
 }
 
-mark1{
+.mark1{
     color: darkgrey;
 }
 @media(max-width : 540px) {
 
-    body { 
-        width: 100vw;
+    .intro img {
+        margin-top: 2rem;
     }
 
-    
-    
     .img {
         width : 80%; 
         height: initial;
         display: block;
-        margin-left:auto ;
-        margin-right: auto;
+        
+        
     }   
 
-    .mainContainer {
-        widows: 100vw;
-        display:flex;
+    
+
+    .master-container {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+   
+
+    #github-img {
+        width: 100px;
+    }
+
+
+
+    #resume-img {
+        width: 60px;
+    }
+
+    
+
+   
+    .container{
+        display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 19px;
         
     }
 
-    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
     #github-img{
-        width: 100px;
-        
+        width: 150px;
     }
-    
-    .container{
-        flex-direction: column;
-        margin-left: 25%;
-       
-    }
+
 
     #resume-img {
         width: 100px;
     }
 
     #GitProj {
-        width: 290px;
+        width: 100vw;
+        margin-bottom: 2rem;
     }
 
     #GitProj2 {
-        width: 290px;
+        width: 100vw;
     }
 
-    .container2 {
-        flex-direction: column;
-        margin-left: 0.3% ; 
-    }
-
-    .socialMed{
-        margin-left: 20%;
-    }
-}
-
-@media(max-width: 1030px) {
-
-    body {
-        background-color: red;
-        flex-direction: column;
+    .socialMed {
+        padding-bottom: 3rem;
         
     }
 
-    
-    
-
-    .container {
-        width: 80% ;
-    }
-
-    .container2 {
-        width: 80% ;
-    }    
-
-    .Contact {
-        width: 80% ;
-    }
-
-     
-    
    
+    
 
-
- 
+    
 }
- body { 
-        width: 100vw;
-    }
+
